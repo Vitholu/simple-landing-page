@@ -1,1 +1,1 @@
-# simple-landing-page
+Design a landing page from a picture.
