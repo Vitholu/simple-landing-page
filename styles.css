@@ -15,8 +15,15 @@
 
 .header {
 	display: flex;
-	justify-content: space-around;
+	width: 900px;
+	margin: auto;
+	justify-content: space-between;
 	color: #fff;
+}
+
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
 }
 
 ul {
@@ -27,29 +34,55 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	font-size: 18px;
+	color: #e5e7eb;
 }
 
 /* Hero Section */
 
 .hero {
 	display: flex;
-	justify-content: space-around;
-	padding: 0 15%;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.hero.bg-color {
+	padding: 60px;
 }
 
 .hero-left-side {
-	flex: 2;
+	display: flex;
+	width: 400px;
+	flex-direction: column;
 }
 
 .hero-right-side {
-	flex: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 450px;
+	height: 179px;
+	font-size: 18px;
+	background-color: #e5e7eb83;
 }
 
 .hero-title {
-	color: #fff;
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
 }
 
 .hero-text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.btn {
+	width: 120px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #3882f6;
 	color: #fff;
+	border-radius: 10px;
 }
