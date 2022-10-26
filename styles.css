@@ -178,3 +178,17 @@ a {
 .btn.cta-btn {
 	border: 2px solid #f9faf8;
 }
+
+/* Footer */
+
+.footer {
+	background-color: #1f2937;
+	padding: 32px;
+}
+
+.footer-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f9faf8;
+}
