@@ -96,6 +96,7 @@ a {
 	align-items: center;
 	margin: auto;
 	width: 800px;
+	padding-bottom: 60px;
 }
 
 .title-products {
@@ -131,4 +132,29 @@ a {
 	width: 130px;
 	margin-top: 4px;
 	text-align: center;
+}
+
+/* Quote Section */
+
+.quotes {
+	padding: 120px 570px;
+	margin-top: 40px;
+	background-color: #e5e7eb;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+}
+
+.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.quoted {
+	font-weight: bolder;
+	font-size: 20px;
+	align-self: flex-end;
 }
